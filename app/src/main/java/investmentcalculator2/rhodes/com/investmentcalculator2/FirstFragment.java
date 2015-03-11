@@ -14,7 +14,7 @@ public class FirstFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.interest_calc_activity, container, false);
+        ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.fragment_main, container, false);
 /*
         TextView tvNo = (TextView) rootView.findViewById(R.id.tvNo);
         tvNo.setOnClickListener(this);
